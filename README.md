@@ -12,4 +12,9 @@ One needs to follow following steps in the root directory.
 pip install maturin #If maturin not yet installed
 maturin build --release
 ```
+if asked, select PyO3 bindings.
+One will then find a wheel (.whl) file at .\target\wheels\. Navigate to this directory and install using
+```Python
+pip install .
+```
 
