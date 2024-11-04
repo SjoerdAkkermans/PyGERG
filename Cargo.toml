@@ -1,0 +1,12 @@
+[package]
+name = "PyGERG"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "PyGERG"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.19", features = ["extension-module"] }
+aga8 = "0.4.0"
