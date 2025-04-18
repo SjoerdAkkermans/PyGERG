@@ -1,3 +1,8 @@
+# Update 18-04-2025
+Equinor has released a more complete python package doing the exact same thing, including a simple pip install. Can be found [here](https://github.com/equinor/pyaga8).
+
+
+
 # Intro
 A python wrapper of Roy Vegard Ovesen's [AGA8 crate](https://github.com/royvegard/aga8), which in turn is a port of NIST's 
 [AGA8 code](https://github.com/usnistgov/AGA8).
